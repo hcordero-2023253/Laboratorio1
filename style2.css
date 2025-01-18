@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    font-size: 30px;
+    background: gray;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+
+.menu2{
+    display: flex;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.menu2 a{
+    display: flex;
+    padding: 30px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.logo-img2 {
+    width: 150px; 
+    height: auto; 
+}
+
+.logo2{
+    margin-left: 30px;
+}
+
+.logo2 a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*COMIDA*/
+.title{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+}
+
+.food{
+    background-image: url("./img/comida.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 1000px;
+    margin: 0;
+}
+
+.gustos-comida{ 
+    margin: 0 auto; 
+    margin-right: 30px;
+    width: 1000px;
+    height: 500px; 
+    border-radius: 10px;
+    background-color: transparent; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.slider{
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    margin: 20px auto;
+    margin-right: 300px;
+}
+
+.imgs{
+    display: flex;
+    width: 100%;
+}
+
+.imgs img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.15s ease;
+}
+
+.imgs input{
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #000 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover{
+    background: #fff;
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+
+/*JUEGOS*/
+.game{
+    background-image: url("./img/game.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 1000px;
+}
+
+.gustos-juegos{ 
+    margin: auto; 
+    margin-left: 30px;
+    width: 1000px;
+    height: auto;
+    background-color: transparent; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title2{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+}
+
+.hover{
+    display: flex;
+    height: 450px;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.hover img{
+    width: 10px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+}
+
+.hover img:hover{
+    cursor: crosshair;
+    width: 450px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*FUTBOL*/
+.futbol{
+    background-image: url("./img/fut.avif");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 1000px;
+}
+
+.fut{ 
+    margin: auto; 
+    width: 800px;
+    height: auto;
+    background-color: transparent; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title3{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+}
+
+.goat{
+    display: flex;
+    height: 400px;
+    width: 800px;
+    margin-left: 50px;
+}
