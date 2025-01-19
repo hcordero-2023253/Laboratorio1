@@ -59,10 +59,9 @@ body{
     width: 100%;
 }
 
-.spacing{
-    padding-top: 30px;
-}
 
+
+/*SLIDER DE IMAGENES*/
 .slider-frame{
     height: auto;
     margin: -2px auto 0;
@@ -127,6 +126,12 @@ p{
     line-height: 1.6; 
 }
 
+/*ESPACIADO*/
+.spacing{
+    padding-top: 30px;
+}
+
+/*HOVER DE IMAGEN*/
 .color{
     background-color: #fff;
 }
@@ -160,6 +165,8 @@ p{
     margin: 20px auto;
 }
 
+
+/*IMAGENES REVERSIBLES*/
 .card{
     position: relative;
     width: 560px;
@@ -251,6 +258,8 @@ p{
     padding-top: 30px;
     -webkit-text-stroke: 5px #22336b;
 }
+
+/*CINTA TRANSPORTADORA*/
 
 .container-icons{
     overflow: hidden;
